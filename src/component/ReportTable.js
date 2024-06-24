@@ -15,7 +15,7 @@ const ReportTable = (props) => {
                 </thead>
                 <tbody>
                 {props.reportData?.data?.map((row, index) => (
-                    <tr>
+                    <tr key={row.name + index}>
                         <td>{index + 1}</td>
                         <td>{row.name}</td>
                         <td>{row.age}</td>

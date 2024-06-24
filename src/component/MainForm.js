@@ -95,6 +95,7 @@ const MainForm = () => {
                                         className="form-control"
                                         id="name"
                                         name="name"
+                                        title="name"
                                         value={formData.name}
                                         onChange={handleChange}
                                         maxLength="20"
@@ -108,6 +109,7 @@ const MainForm = () => {
                                         className="form-control"
                                         id="age"
                                         name="age"
+                                        title="age"
                                         value={formData.age}
                                         maxLength="3"
                                         onChange={handleChange}

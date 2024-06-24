@@ -14,7 +14,7 @@ const DnaButtons = ({handleButtonClick, data, generateDNA}) => {
                         className="btn btn-outline-primary  "
                         onClick={() => handleButtonClick(letter)}
                     >
-                        <span className="p-2 font-monospace">{letter}</span>
+                        <span className="p-2 font-monospace" title={letter}>{letter}</span>
                     </button>
                     ))}
                 <button type="button" className="btn btn-outline-success "

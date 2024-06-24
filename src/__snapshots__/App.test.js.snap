@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`changes the class when hovered 1`] = `
+<div
+  className="container mt-4"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+    >
+      <h2
+        className="card-title"
+        href="/"
+      >
+        Mutant Test
+      </h2>
+    </div>
+    <div
+      className="card-body"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-7 mt-3"
+        >
+          <form
+            className="form-inline"
+            onReset={[Function]}
+            onSubmit={[Function]}
+          >
+            <div
+              className="input-group mb-3"
+            >
+              <span
+                className="input-group-text"
+                htmlFor="name"
+              >
+                Name:
+              </span>
+              <input
+                className="form-control"
+                id="name"
+                maxLength="20"
+                name="name"
+                onChange={[Function]}
+                required={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="input-group mb-3"
+            >
+              <span
+                className="input-group-text"
+              >
+                Age:
+              </span>
+              <input
+                className="form-control"
+                id="age"
+                maxLength="3"
+                name="age"
+                onChange={[Function]}
+                required={true}
+                type="number"
+                value=""
+              />
+            </div>
+            <div
+              className="input-group mb-3"
+            >
+              <span
+                className="input-group-text"
+              >
+                DNA:
+              </span>
+              <div
+                aria-label="Botones DNA"
+                className="btn-group"
+                role="group"
+              >
+                <button
+                  className="btn btn-outline-primary  "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="p-2 font-monospace"
+                  >
+                    A
+                  </span>
+                </button>
+                <button
+                  className="btn btn-outline-primary  "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="p-2 font-monospace"
+                  >
+                    C
+                  </span>
+                </button>
+                <button
+                  className="btn btn-outline-primary  "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="p-2 font-monospace"
+                  >
+                    G
+                  </span>
+                </button>
+                <button
+                  className="btn btn-outline-primary  "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="p-2 font-monospace"
+                  >
+                    T
+                  </span>
+                </button>
+                <button
+                  className="btn btn-outline-success "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="p-2 font-monospace"
+                  >
+                    AUTO
+                  </span>
+                </button>
+              </div>
+              <input
+                className="form-control"
+                id="dna"
+                name="dna"
+                readOnly={true}
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="alert mb-3 alert-primary"
+              role="alert"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              Enter the DNA sequence
+            </div>
+            <div
+              className="btn-group"
+            >
+              <button
+                className="btn btn-outline-primary "
+                type="submit"
+              >
+                Send
+              </button>
+              <button
+                className="btn btn-outline-info "
+                type="reset"
+              >
+                Clean
+              </button>
+            </div>
+          </form>
+          <div
+            className="table-responsive p-3"
+          >
+            <table
+              className="table table-striped table-sm table-bordered"
+            >
+              <thead>
+                <tr>
+                  <th
+                    scope="col"
+                  >
+                    Human DNA
+                  </th>
+                  <th
+                    scope="col"
+                  >
+                    Mutant DNA
+                  </th>
+                  <th
+                    scope="col"
+                  >
+                    Mutant ratio
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td />
+                  <td />
+                  <td>
+                    NaN
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="input-group "
+          >
+            <ul
+              className="list-group list-group-flush mx-auto "
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="table-responsive p-3"
+      >
+        <table
+          className="table table-striped table-sm table-bordered"
+        >
+          <thead>
+            <tr>
+              <th
+                scope="col"
+              >
+                #
+              </th>
+              <th
+                scope="col"
+              >
+                Name
+              </th>
+              <th
+                scope="col"
+              >
+                Age
+              </th>
+              <th
+                scope="col"
+              >
+                Is mutant
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
